@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['@/assets/css/main.css'],
+  css: ['@/assets/css/tailwind.css'],
 
   // components: https://go.nuxtjs.dev/config-components
   components: [{ path: '~/components', pathPrefix: false }],
@@ -46,5 +46,8 @@ export default defineNuxtConfig({
     },
   },
 
-  //   buildModules: ['@nuxt/postcss8'],
+  modules: [
+    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    '@nuxtjs/tailwindcss',
+  ],
 })
