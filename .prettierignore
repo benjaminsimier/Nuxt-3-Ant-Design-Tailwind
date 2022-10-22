@@ -1,0 +1,9 @@
+# Ignore artifacts:
+build
+.output
+.nuxt
+.github
+
+# Ignore specific files:
+README.md
+*.lock*
