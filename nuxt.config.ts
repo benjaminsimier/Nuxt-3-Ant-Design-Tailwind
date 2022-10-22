@@ -46,6 +46,18 @@ export default defineNuxtConfig({
     },
   },
 
+  webpack: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          'postcss-nested': {},
+          'postcss-hexrgba': {},
+          'postcss-import': {},
+        },
+      },
+    },
+  },
+
   modules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',

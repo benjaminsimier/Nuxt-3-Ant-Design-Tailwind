@@ -1,24 +1,27 @@
 <template>
   <div>
-    <PageHeader class="bg-teaGreen" :title="title" :breadcrumb="{ routes }" />
-    <div class="text-lg">Tes</div>
-    <a-button>Add</a-button>
-    <a-pagination v-model:current="current" :total="50" show-less-items />
+    <div
+      class="fixed top-0 left-0 flex h-full w-full items-center justify-center bg-teaGreen"
+    >
+      <div class="text-center">
+        <div class="text-2xl font-medium text-richBlack">
+          Nuxt 3 + Ant Design + Tailwind
+        </div>
+        <div class="mt-4 flex w-full justify-center gap-6">
+          <div>
+            <nuxt-link to="/about" class="text-smoke hover:text-richBlack">
+              About
+            </nuxt-link>
+          </div>
+          <div>
+            <nuxt-link to="/dashboard" class="text-smoke hover:text-richBlack">
+              Dashboard
+            </nuxt-link>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
-<script setup lang="ts">
-const title = ref('Page title')
-
-const routes = ref([
-  {
-    path: '',
-    breadcrumbName: 'Home',
-  },
-  {
-    breadcrumbName: 'About',
-  },
-])
-
-const current = ref(1)
-</script>
+<script setup lang="ts"></script>
