@@ -20,7 +20,15 @@ export default defineNuxtConfig({
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts',
   ],
+
+  googleFonts: {
+    display: 'swap',
+    families: {
+      'Lexend Deca': [100, 200, 300, 400, 600, 700, 800, 900],
+    },
+  },
 
   vite: {
     plugins: [

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-pink-500">Test</div>
+    <div class="bg-teaGreen text-lg">Test</div>
     <a-button>Add</a-button>
     <a-pagination v-model:current="current" :total="50" show-less-items />
   </div>

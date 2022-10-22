@@ -17,7 +17,8 @@
     "unplugin-vue-components": "^0.22.8",
     "postcss-hexrgba": "^2.0.1",
     "postcss-import": "^15.0.0",
-    "postcss-nested": "^6.0.0"
+    "postcss-nested": "^6.0.0",
+    "@nuxtjs/google-fonts": "^3.0.0-0"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",

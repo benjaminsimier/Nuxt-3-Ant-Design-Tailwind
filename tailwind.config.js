@@ -17,20 +17,15 @@ module.exports = {
       padding: '1.25rem',
     },
     extend: {
-      // TODO: import font
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        secondary: '#E6EAF7',
-        firefly: '#052862', // Dark blue
-        athens: '#7988A2', // Light Grey
-        pacific: '#51689B', // Light blue
-        primary: '#194096', // Blue
-        oxford: '#FBFBFF', // background
-        manatee: '#A09FAF',
-        // nevada: '#5E6568', // Grey
-        // swamp: '#33444E', // Dark Grey
+        teaGreen: '#C5EFCB',
+        richBlack: '#020402',
+        smoke: '#758173',
+        laurelGreen: '#A9C5A0',
+        pastelGray: '#C6DEC6',
       },
       aspectRatio: {
         '4/3': '4 / 3',
