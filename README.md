@@ -1,7 +1,7 @@
 # Nuxt 3 Minimal Starter including Tailwind and AntDesign (TypeScript)
 
 ## Minimal requirements
-node 18
+node 16
 
 ## Setup
 
