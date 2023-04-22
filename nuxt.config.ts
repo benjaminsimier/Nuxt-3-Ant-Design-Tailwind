@@ -14,14 +14,15 @@ export default defineNuxtConfig({
 
   css: ['@/assets/css/tailwind.css'],
 
-  // components: https://go.nuxtjs.dev/config-components
-  components: [{ path: '~/components', pathPrefix: false }],
-
-  buildModules: [
+  modules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
   ],
+
+  // components: https://go.nuxtjs.dev/config-components
+  components: [{ path: '~/components', pathPrefix: false }],
 
   googleFonts: {
     display: 'swap',
@@ -57,9 +58,4 @@ export default defineNuxtConfig({
       },
     },
   },
-
-  modules: [
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss',
-  ],
 })
