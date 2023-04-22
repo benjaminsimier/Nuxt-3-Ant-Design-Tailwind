@@ -5,6 +5,11 @@ import Components from 'unplugin-vue-components/vite'
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 
 export default defineNuxtConfig({
+  typescript: {
+    shim: false,
+    strict: false,
+  },
+
   app: {
     head: {
       titleTemplate: '%s - Test',
