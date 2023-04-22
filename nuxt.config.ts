@@ -51,16 +51,4 @@ export default defineNuxtConfig({
       ],
     },
   },
-
-  webpack: {
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          'postcss-nested': {},
-          'postcss-hexrgba': {},
-          'postcss-import': {},
-        },
-      },
-    },
-  },
 })
